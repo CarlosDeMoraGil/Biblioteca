@@ -26,8 +26,13 @@ public class Book {
     }
     public String getPublicDate(){
         return publicDate;
-
     }
 
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }

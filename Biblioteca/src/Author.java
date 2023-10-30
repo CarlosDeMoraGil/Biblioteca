@@ -21,5 +21,19 @@ public class Author {
         return birthCity;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public void setBirthCity(String birthCity) {
+        this.birthCity = birthCity;
+    }
 }

@@ -34,4 +34,27 @@ public class Users {
         return dni;
     }
 
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setHomeAdress(String homeAdress) {
+        this.homeAdress = homeAdress;
+    }
+
+    public void setPlaceOfLiving(String placeOfLiving) {
+        this.placeOfLiving = placeOfLiving;
+    }
 }
