@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Users {
 
     private String dni;
@@ -11,6 +13,8 @@ public class Users {
     private String homeAdress;
 
     private String placeOfLiving;
+
+    private ArrayList<Loan> loan;
 
     public String getFullData() {
         return dni + name + surname + phone + homeAdress + placeOfLiving;
@@ -56,5 +60,12 @@ public class Users {
 
     public void setPlaceOfLiving(String placeOfLiving) {
         this.placeOfLiving = placeOfLiving;
+    }
+
+    public ArrayList<Loan> getLoan() {
+        return loan;
+    }
+    public void setLoan(ArrayList<Loan> loan) {
+        this.loan = loan;
     }
 }

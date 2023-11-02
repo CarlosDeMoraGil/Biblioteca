@@ -2,9 +2,10 @@ public class Loan {
 
     private String id;
     private String date;
+    private String returnDate;
 
-    public Users users;
-    public Book book;
+    private Users users;
+    private Book book;
 
 
     public String getFullData() {
@@ -25,5 +26,28 @@ public class Loan {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getReturnDate() {
+        return returnDate;
+    }
+    public void setReturnDate(String returnDate) {
+        this.returnDate = returnDate;
+    }
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
+    }
+
+    public Book getBook() {
+        return book;
+    }
+
+    public void setBook(Book book) {
+        this.book = book;
     }
 }

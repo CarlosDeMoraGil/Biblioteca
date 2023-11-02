@@ -8,6 +8,8 @@ public class Book {
     private ArrayList<Genre>  genre;
     private String publicDate;
 
+    private Loan loan;
+
     private String getFullData(){
         return  isbn + "" + title + " " + author + " " + genre + " " + publicDate;
     }
